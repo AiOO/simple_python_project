@@ -1,0 +1,13 @@
+machine:
+  timezone:
+    Asia/Seoul
+  python:
+    version: 3.4.1
+
+dependencies:
+  override:
+    - pip install .[tests]
+
+test:
+  override:
+    - py.test -cov spp
