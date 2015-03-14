@@ -3,7 +3,8 @@ from setuptools import setup, find_packages
 
 install_requires = [
     'Flask >= 0.10.1, < 1.0',
-    'sqlalchemy >= 0.9.9, < 1.0'
+    'SQLAlchemy >= 0.9.9, < 1.0',
+    'Flask-SQLAlchemy >= 2.0, < 3.0',
 ]
 
 tests_require = [
