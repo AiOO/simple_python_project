@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import find_packages, setup
 
 
 install_requires = [
@@ -7,13 +7,16 @@ install_requires = [
     'Flask-SQLAlchemy >= 2.0, < 3.0',
 ]
 
+
 tests_require = [
     'pytest >= 2.6.4, < 3.0',
 ]
 
+
 docs_require = [
     'Sphinx >= 1.3, < 2.0',
 ]
+
 
 setup(
     name='simple_python_project',

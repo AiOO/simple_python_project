@@ -61,7 +61,6 @@ def test_web_fail_create_user(fx_app, fx_session):
         assert response.status_code == 400
 
 
-
 def test_web_create_duplicated_user(fx_app, fx_session, fx_user):
     with fx_app.test_request_context():
         url = url_for('create_user')
