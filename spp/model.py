@@ -2,7 +2,7 @@ from sqlalchemy import func
 from sqlalchemy.schema import Column
 from sqlalchemy.types import DateTime, Integer, Unicode
 
-from .app import db
+from .db import db
 
 
 __all__ = 'User'

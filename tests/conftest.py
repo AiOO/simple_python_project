@@ -1,6 +1,7 @@
 from pytest import fixture, yield_fixture
 
-from spp.app import app, db
+from spp.app import app
+from spp.db import db
 
 
 @fixture
