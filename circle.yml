@@ -10,4 +10,4 @@ dependencies:
 
 test:
   override:
-    - py.test --cov spp
+    - py.test --cov spp tests
