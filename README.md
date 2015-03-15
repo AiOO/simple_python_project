@@ -1,3 +1,5 @@
+![Build status](https://circleci.com/gh/AiOO/simple_python_project.svg?style=shield&circle-token=79eadc3f616156c8b95efae7cbd68fe93bdd334b)
+
 # simple_python_project
 
 `(optional)` 은 전부다 구현하고 시간남으면 구현하기.
