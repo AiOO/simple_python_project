@@ -9,6 +9,7 @@ install_requires = [
 
 
 tests_require = [
+    'coveralls >= 1.0a2, < 2.0',
     'pytest >= 2.6.4, < 3.0',
     'pytest-cov >= 1.8.1, < 2.0',
 ]

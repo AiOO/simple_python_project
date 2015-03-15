@@ -3,6 +3,8 @@ machine:
     Asia/Seoul
   python:
     version: 3.4.1
+  environment:
+    COVERALLS_REPO_TOKEN: yi1AhlJRWIHyUS02BRo4eS3VGOUoum6LO
 
 dependencies:
   override:
@@ -11,4 +13,6 @@ dependencies:
 test:
   override:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit
-    - py.test --cov spp --junitxml=$CIRCLE_TEST_REPORTS/junit/unittest.xml tests
+    - coverage run $(which py.test) --cov spp --junitxml=$CIRCLE_TEST_REPORTS/junit/unittest.xml tests
+  post:
+    - coveralls
