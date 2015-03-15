@@ -13,6 +13,6 @@ dependencies:
 test:
   override:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit
-    - coverage run $(which py.test) --cov spp --junitxml=$CIRCLE_TEST_REPORTS/junit/unittest.xml tests
+    - py.test --cov spp --junitxml=$CIRCLE_TEST_REPORTS/junit/unittest.xml tests
   post:
     - coveralls
