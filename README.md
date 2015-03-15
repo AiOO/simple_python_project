@@ -1,3 +1,4 @@
+![Coverage status](https://coveralls.io/repos/AiOO/simple_python_project/badge.svg?branch=master)
 ![Build status](https://circleci.com/gh/AiOO/simple_python_project.svg?style=shield&circle-token=79eadc3f616156c8b95efae7cbd68fe93bdd334b)
 
 # simple_python_project
